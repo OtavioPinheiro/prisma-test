@@ -1,0 +1,26 @@
+{
+  "name": "prisma-test",
+  "version": "1.0.0",
+  "description": "Developing Integration Tests",
+  "keywords": [
+    "integration",
+    "test"
+  ],
+  "license": "ISC",
+  "author": "Otavio Pinheiro",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsnd --respawn --transpile-only --ignore-watch node_modules --exit src/index.js"
+  },
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "jest": "^30.4.2",
+    "prisma": "^7.8.0",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^7.0.2"
+  }
+}
